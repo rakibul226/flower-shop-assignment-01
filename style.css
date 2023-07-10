@@ -3,6 +3,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: gray;
+}
 header{
     display: flex;
     height: 100vh;
@@ -63,3 +66,66 @@ header{
 }
 
 /* ---------------------------support section--- */
+
+.support{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 190px 240px;
+
+    background-color: #a97a7a;
+}
+.hot-deal{
+    display: flex;
+    align-items: center;
+    padding-left: 350px;
+    padding-right: 400px;
+    margin-bottom: 200px;
+
+}
+
+/* ----------------------Social media section---- */
+
+.social{
+    margin: 0px 240px;
+    text-align: center;
+}
+.social-img{
+    display: flex;
+}
+
+
+/* ---------Subscrilbe-------------- */
+.subscribe{
+    display: flex;
+    align-items: center;
+    background-image: url("images/Rectangle\ 9.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 200px 240px;
+}
+
+
+/* 
+------------footer-------- */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 120px 600px;
+}
+
+.footer-desc{
+    margin: 20px 0px;
+   
+}
+
+.copy-right{
+    color: rgba(255, 255, 255, 0.4);
+text-align: center;
+font-size: 16px;
+font-weight: 200;
+}
+.logo{
+    color: #E55473;
+}
