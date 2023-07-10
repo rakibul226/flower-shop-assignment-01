@@ -4,36 +4,44 @@
     padding: 0px;
 }
 body{
-    background-color: gray;
+    font-family: 'Lato', sans-serif;
 }
 header{
     display: flex;
+    gap: 97px;
     height: 100vh;
-    /* justify-content: space-between; */
+    margin-bottom: 178px;
     align-items: center;
-    padding-left: 200px;
-    background-color: rgba(76, 81, 25, 0.9);
-    
+    padding-left: 240px;
+    background-color:#FCEEF1;
 }
 .header-title{
     color: #272727;
     font-size: 60px;
     font-weight: 800;
+    width: 93%;
 }
 
 .header-desc{
     margin: 32px 0px;
     width: 500px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
 
 }
 .header-img{
-    padding-top:38px;
+    padding-top: 76px;
+    height: 90%;
 }
 
 .btn-primary{
-    height: 40px;
-    padding: 10px;
-    background-color: orange;
+    padding: 20px 43px;
+    background-color: #DD516E;
+    color: white;
+    border: none;
+    border-radius: 8px;
 }
 
 
@@ -50,6 +58,7 @@ header{
     font-weight: 800;
 }
 .feature-desc{
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -71,38 +80,69 @@ header{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 190px 240px;
-
-    background-color: #a97a7a;
+    margin: 128px 240px;
+    padding: 86px 175px;
+    background-color: #F4F4F4;
+    gap: 100px;
 }
+
+/* ------------------hot deal-------------------- */
+
 .hot-deal{
     display: flex;
+    gap: 186px;
+    background-color: #FEF6F8;
     align-items: center;
-    padding-left: 350px;
-    padding-right: 400px;
-    margin-bottom: 200px;
-
+    text-align: center;
+    padding: 100px 300px;
+    margin-bottom: 140px;
+}
+.deal-desc{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px;
+}
+.deal-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 /* ----------------------Social media section---- */
 
 .social{
-    margin: 0px 240px;
+     padding: 0px 240px;
     text-align: center;
 }
-.social-img{
+.social-img-container{
     display: flex;
+    gap: 20px;
+}
+.social-img{
+    width: 95%;
 }
 
 
 /* ---------Subscrilbe-------------- */
 .subscribe{
-    display: flex;
-    align-items: center;
+    text-align: center;
     background-image: url("images/Rectangle\ 9.png");
     height: 500px;
     background-repeat: no-repeat;
-    margin: 200px 240px;
+    margin: 128px 240px;
+    padding: 125px 0px;
+}
+.subscribe-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.subscribe-mail{
+    width: 300px;
+    padding: 22px;
 }
 
 
@@ -112,12 +152,16 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 120px 600px;
+    padding: 120px 500px;
 }
 
 .footer-desc{
     margin: 20px 0px;
-   
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .copy-right{
