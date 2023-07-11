@@ -86,7 +86,7 @@ header{
     padding-top: 80px;
     padding-left: 30px;
     padding-right: 10px;
-    padding-bottom: 58px;
+    padding-bottom: 55px;
     background-color: #D9EFF1;
     border-radius: 300px 300px 0px 0px;
 }
@@ -184,6 +184,36 @@ text-decoration-line: underline;
     margin-right: 10px;
 }
 
+/* ------------------Top rated item----- */
+.top-rated{
+    margin: 128px 240px;
+   
+    /* background-color: #F9F9F9; */
+}
+.top-rated-item{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+    background-color: #FEF6F8;
+}
+.grp-2{
+   
+}
+.img-1{
+    padding-left:50px;
+    padding-right: 80px;
+    width: 80%;
+}
+.img-2{
+    margin-left: 80px;
+    width: 50%;
+}
+.img-3{
+    padding-top: 5px;
+    width: 40%;
+    margin-left: 50px;
+}
 
 /* 
 ------------footer-------- */
@@ -207,7 +237,7 @@ footer{
     color: rgba(255, 255, 255, 0.4);
 text-align: center;
 font-size: 16px;
-font-weight: 200;
+font-weight: 200
 }
 .logo{
     color: #E55473;
